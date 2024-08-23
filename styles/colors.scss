@@ -1,0 +1,126 @@
+$blue: #bcb8ef;
+$ltblue: rgb(10, 92, 192);
+$navyblue: rgb(47, 7, 141);
+$pista: rgb(103, 252, 229);
+$navybluetxt: rgb(33, 7, 95);
+$skyblue: #1089bd;
+$green: rgb(17, 209, 132);
+$yellow: #fff476;
+$grey: #4b4646;
+$paratxt: #b6eaff;
+$brown: #945E12;
+$lightblue: rgb(213 236 255);
+
+// ============ icons ========
+
+.handicon {
+    font-size: 1.5rem;
+    color: goldenrod;
+}
+
+
+// ======================= fonts =================================
+$Charisfonts: "Charis SIL", serif;
+$fonts: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+// ======================= backgrounds =================================
+
+$background: linear-gradient(90deg, #97eeff, rgb(255 255 255));
+
+// ================================================================
+$h3: 1.6rem;
+
+p {
+    font-family: $fonts;
+    color: #6d6464;
+    margin-bottom: 1rem;
+}
+
+a {
+    font-family: $fonts;
+}
+
+.pageContainer {
+    padding: 2rem 5%;
+
+    .heading {
+        width: fit-content;
+        margin-bottom: 2rem;
+
+
+        h1 {
+
+            text-align: left;
+            position: relative;
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 601;
+            word-spacing: 0.15rem;
+            font-size: 1.35rem;
+            // color: $bg;
+            color: #0087C2;
+            transition: all 0.4s ease 0s;
+        }
+
+        h1:before {
+            position: absolute;
+            left: 0;
+            bottom: -0.2rem;
+            width: 60%;
+            height: 2px;
+            content: "";
+            background-color: #f58733;
+        }
+
+        h3 {
+            text-shadow: 1px 1px 2px pink;
+            text-align: left;
+            position: relative;
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 601;
+            word-spacing: 0.15rem;
+            font-size: 1.55rem;
+            // color: $bg;
+            color: #1c2d4a;
+            transition: all 0.4s ease 0s;
+        }
+
+        h3:before {
+            position: absolute;
+            left: 0%;
+            bottom: -0.2rem;
+            width: 50%;
+            height: 2px;
+            content: "";
+            background-color: rgb(174, 168, 168);
+        }
+
+        // h3 {
+
+        //     text-align: left;
+        //     position: relative;
+        //     padding: 0;
+        //     margin: 0;
+        //     font-family: 'Poppins', sans-serif;
+        //     font-weight: 601;
+        //     word-spacing: 0.15rem;
+        //     font-size: 1.35rem;
+        //     // color: $bg;
+        //     color: #0087C2;
+        //     transition: all 0.4s ease 0s;
+        // }
+
+        // h3:before {
+        //     position: absolute;
+        //     left: 0;
+        //     bottom: -0.2rem;
+        //     width: 60%;
+        //     height: 2px;
+        //     content: "";
+        //     background-color: #f58733;
+        // }
+    }
+}
