@@ -1,0 +1,186 @@
+$fonts: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$border: #c5cbcf;
+
+.faqs {
+    margin: 3rem 0 2rem 0;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+
+}
+
+.quebtn {
+    // background-image: linear-gradient(to right, #335fa3, #0f2d5a);
+    // background-image: linear-gradient(to right, #5987cd, #0f2d5a);
+    background-color: rgb(224 228 233);
+    // background-color: rgb(225 229 234);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border: 1px solid $border;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    height: 3rem;
+    padding: 0.2rem 1rem;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1rem;
+    font-family: $fonts;
+    text-transform: capitalize;
+    color: rgb(83 66 66);
+    margin-top: 1.7rem;
+
+    align-items: center;
+    display: flex;
+
+    span {
+        width: 97%;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .boldtext {
+        color: $ltblue;
+        margin-right: 0.5rem;
+    }
+}
+
+.plusicon {
+    color: rgb(11 56 114);
+    font-size: 1.3rem;
+}
+
+.question {
+
+    padding: 1rem 2rem;
+    border-bottom: 1px solid $border;
+    border-left: 1px solid $border;
+    border-right: 1px solid $border;
+    background-color: white;
+    // box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    // color: white;
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+
+    p {
+        margin-bottom: 0.5rem;
+        line-height: 1.8rem;
+        text-align: left;
+        color: #5e5353;
+    }
+
+    ul {
+        color: #5e5353;
+        padding-left: 1rem;
+        text-align: left;
+
+        ::marker {
+            color: rgba(214, 128, 15, 0.646);
+            font-size: 1.2rem;
+
+        }
+
+        li {
+            list-style: square;
+            font-family: $fonts;
+            line-height: 1.8rem;
+            margin: 0.5rem 0;
+        }
+
+        li:hover::marker {
+            color: rgba(251, 231, 9, 0.646);
+        }
+    }
+
+    ol {
+        color: #5e5353;
+        padding-left: 1rem;
+        text-align: left;
+        // color:  grey;
+
+        ::marker {
+            color: #5e5353;
+        }
+
+        li {
+
+            line-height: 1.8rem;
+            margin: 0.5rem 0;
+        }
+    }
+
+    .heading {
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+
+        h3 {
+            text-shadow: 1px 1px 2px pink;
+            text-align: left;
+            position: relative;
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            word-spacing: 0.15rem;
+            font-size: 1.1rem;
+            // color: $bg;
+            color: #22324e;
+            transition: all 0.4s ease 0s;
+        }
+
+        h3:before {
+            position: absolute;
+            left: 0%;
+            bottom: -0.2rem;
+            width: 50%;
+            height: 2px;
+            content: "";
+            background-color: rgb(174, 168, 168);
+        }
+    }
+
+
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+
+    80% {
+        transform: scaleY(1.1)
+    }
+
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+// ============================== Mobile =========================================
+
+@media only screen and (max-width:700px) {
+    .quebtn {
+        height: auto;
+        padding: 0.5rem 1rem;
+
+        span {
+            line-height: 1.2rem;
+            font-size: 0.9rem;
+        }
+    }
+
+    .plusicon {
+        margin-left: 0.2rem;
+    }
+
+    .question {
+        padding: 1rem 1rem;
+        margin-top: 0;
+
+        p {
+            margin: 0 0;
+        }
+
+    }
+}

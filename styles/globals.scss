@@ -1,5 +1,6 @@
 @import './colors.scss';
 @import './animation.scss';
+@import './syllabus.scss';
 
 * {
     margin: 0;
@@ -39,6 +40,53 @@
     }
 
 
+
+}
+
+.text {
+
+    h3 {
+        color: $grey;
+        font-size: $h3;
+        font-family: $fonts;
+        margin-bottom: 2rem;
+        text-align: center;
+
+    }
+
+    h3::before {
+        content: " ";
+        border: 5px solid $skyblue;
+        margin-right: 1rem;
+    }
+
+    .subpara {
+        text-align: center;
+    }
+
+    // =================================
+
+    h1 {
+        text-align: center;
+        text-transform: capitalize;
+        color: $grey;
+        font-size: $h3;
+        font-family: $fonts;
+        margin-bottom: 2rem;
+    }
+
+    h1::before {
+        content: " ";
+        border: 5px solid $skyblue;
+        margin-right: 1rem;
+    }
+
+    h4 {
+        margin: 1rem 0;
+        font-size: 1.2rem;
+        color: $p;
+        font-family: $fonts;
+    }
 
 }
 
@@ -329,6 +377,7 @@
             font-size: 2.3rem;
             text-shadow: 1px 1px 2px rgb(248, 156, 171);
             color: $yellow;
+            font-weight: 600;
             // color: $pista;
             // font-family: $fonts;
             font-family: $Charisfonts;
@@ -339,6 +388,7 @@
             color: white;
             font-size: 1.6rem;
             margin-bottom: 1.5rem;
+            font-weight: 600;
             // font-family: $fonts;
             font-family: $fonts;
         }
@@ -441,6 +491,8 @@
     }
 
 }
+
+
 
 .EnrollmentForm {
     background-color: white;
@@ -605,7 +657,7 @@
 }
 
 .FScourses {
-    margin: 2.5rem 0 2.5rem 0;
+    margin: 2.5rem 0 0rem 0;
 
     .text {
         margin-bottom: 2.5rem;
@@ -821,12 +873,11 @@
 // =============  Hiring Parners  ===============
 
 .hiringParners {
-    margin: 2rem;
+    margin: 1rem 0 2.5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 
     .Marquee {
         user-select: none;
@@ -839,7 +890,7 @@
                 hsl(0 0% 0% / 0));
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
         overflow: hidden;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
 
 
         .MarqueeGroup {
@@ -894,21 +945,23 @@
     display: flex;
     margin: 2rem 0;
     background-color: $lightblue;
-    padding: 2rem;
+    padding: 4rem 2rem;
     font-family: $fonts;
 
     .text {
-        width: 60%;
+        width: 62%;
         text-align: center;
+        padding: 1rem;
+
 
         h3 {
             color: $skyblue;
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             margin-bottom: 0.5rem;
         }
 
         h2 {
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             color: $grey;
             margin-bottom: 0.5rem;
 
@@ -930,7 +983,8 @@
 // =============  Testimonial  ===============
 
 .Testimonial {
-    margin: 4rem 0;
+    margin: 3rem 0 4rem 0;
+    box-sizing: border-box;
 
     .container1 {
         // padding: 4rem 2rem 2rem 5rem;
@@ -998,92 +1052,109 @@
 
     .container2 {
         width: 100%;
-        display: flex;
+        // display: flex;
 
 
-        .box {
+        .boxContainer {
+            // display: flex;
 
-            width: 46%;
-            height: 14rem;
-            border-radius: 0.5rem;
-            // box-shadow: rgb(43 120 199 / 37%) 0px 3px 8px;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-            // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            // box-shadow: 7px 7px 14px 0px #146CC526, -2px -2px 10px 0px #146CC50D;
-            padding: 1rem;
-            margin: 0.6rem;
-            background-color: rgb(223, 236, 251);
+            .cardContainer {
+                display: flex !important;
+
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    width: 46%;
+                    height: 14rem;
+                    border-radius: 0.5rem;
+                    // box-shadow: rgb(43 120 199 / 37%) 0px 3px 8px;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                    // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    // box-shadow: 7px 7px 14px 0px #146CC526, -2px -2px 10px 0px #146CC50D;
+                    padding: 1rem;
+                    margin: 0.6rem;
+                    background-color: rgb(223, 236, 251);
 
 
-            .logo {
-                display: flex;
+                    .logo {
+                        display: flex;
 
 
-                .img {
-                    width: 4.2rem;
-                    height: 4.2rem;
-                    border-radius: 50%;
-                    background-color: #e4e6e7;
+                        .img {
+                            width: 4.2rem;
+                            height: 4.2rem;
+                            border-radius: 50%;
+                            background-color: #e4e6e7;
 
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        border-radius: 50%;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 50%;
+
+                            }
+
+                        }
+
+                        .name {
+                            padding-left: 1.3rem;
+
+                            p {
+                                font-size: 1rem;
+                                margin: 0.5rem 0;
+                                color: $grey;
+                            }
+
+                            .bold {
+                                font-weight: 600;
+                                font-size: 1.1rem;
+
+                            }
+
+                            span {
+                                color: rgb(37, 135, 248);
+                                font-size: 1rem;
+
+                            }
+                        }
+                    }
+
+                    .txt {
+                        margin-top: 1.5rem;
+
+                        .leftquote {
+                            font-size: .95rem;
+                            color: #837b7b;
+                            margin-right: 0.6rem;
+                            position: relative;
+                            bottom: 0.3rem;
+                        }
+
+                        .rightquote {
+                            font-size: .95rem;
+                            color: #837b7b;
+                            margin-left: 0.6rem;
+                            position: relative;
+                            // bottom: 0.3rem;
+                        }
+
+                        p {
+                            color: rgb(125 125 125);
+                            line-height: 2rem;
+                            display: -webkit-box;
+                            line-clamp: 3;
+                            -webkit-line-clamp: 3;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                        }
 
                     }
 
-                }
-
-                .name {
-                    padding-left: 1.3rem;
-
-                    p {
-                        font-size: 1rem;
-                        margin: 0.5rem 0;
-                        color: $grey;
-                    }
-
-                    .bold {
-                        font-weight: 600;
-                        font-size: 1.1rem;
-
-                    }
-
-                    span {
-                        color: rgb(37, 135, 248);
-                        font-size: 1rem;
-
-                    }
                 }
             }
 
-            .txt {
-                margin-top: 1.5rem;
-
-                .leftquote {
-                    font-size: .95rem;
-                    color: #837b7b;
-                    margin-right: 0.6rem;
-                    position: relative;
-                    bottom: 0.3rem;
-                }
-
-                .rightquote {
-                    font-size: .95rem;
-                    color: #837b7b;
-                    margin-left: 0.6rem;
-                    position: relative;
-                    // bottom: 0.3rem;
-                }
-
-                p {
-                    color: rgb(125 125 125);
-                    line-height: 2rem;
-                }
-
-            }
 
         }
+
     }
 
 }
@@ -1174,7 +1245,7 @@
 // =============  Home page  ===============
 .banner {
     // background: linear-gradient(90deg, rgb(5 17 40), rgb(79 3 207 / 77%)) no-repeat center center / cover;
-    background: linear-gradient(90deg, rgb(47 0 127), rgb(11 150 216), rgb(68 195 255)) no-repeat center center / cover;
+    background: linear-gradient(90deg, rgb(37 28 52), rgb(11 150 216), rgb(68 195 255)) no-repeat center center / cover;
 
 
     // background: linear-gradient(90deg, rgb(16 56 134), rgb(18 219 208 / 77%)), url(../public//img/bg/bg3.jpeg) no-repeat center center/cover;
@@ -1233,7 +1304,7 @@
 
 // =============  counter  ===============
 .counter {
-
+    margin-bottom: 2rem;
 
     .text {
 
@@ -1459,11 +1530,12 @@
     width: 100%;
     height: auto;
     background-color: grey;
-    background: linear-gradient(90deg, rgba(3, 3, 45, 0.53), rgba(13, 5, 75, 0.733)), url(../public/img/bg/1.webp) center center / cover no-repeat;
+    background: linear-gradient(90deg, rgb(3 3 30 / 66%), rgba(13, 5, 75, 0.733)), url(../public/img/bg/1.webp) center center / cover no-repeat;
     background-size: 100% 100%;
-    padding: 3rem 2rem;
+    padding: 3rem 2rem 2rem 2rem;
     box-sizing: border-box;
     font-family: $fonts;
+    margin-top: 4rem;
 
     p {
         color: rgb(226, 222, 222);
@@ -1559,4 +1631,21 @@
         text-align: center;
     }
 
+}
+
+// =========== courseDetailTable ==============
+
+.courseDetailTable {
+    display: flex;
+    margin: 1.5rem 0;
+
+
+
+    div {
+        margin-right: 4rem;
+    }
+
+    p {
+        height: 2rem;
+    }
 }

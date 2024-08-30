@@ -25,11 +25,11 @@ export default function NavbarDesk() {
                     <Link href="/"> Home </Link>
 
                     <div className="dropDown">
-                        <Link href="/courses"> FullStack </Link>
+                        <Link href={pagelinks.fullstack}> FullStack </Link>
 
                         <div className="dropDownContent">
 
-                            <p><Link href="/">   FullStack java </Link> </p>
+                            <p><Link href={pagelinks.fullstackjava}>   FullStack java </Link> </p>
 
                             <p><Link href="/">  FullStack Python  </Link> </p>
 
@@ -41,7 +41,7 @@ export default function NavbarDesk() {
                     </div>
 
                     <div className="dropDown">
-                        <Link href="/courses"> Data Science </Link>
+                        <Link href="/dataScience"> Data Science </Link>
 
                         <div className="dropDownContent">
 
@@ -58,7 +58,7 @@ export default function NavbarDesk() {
 
                         <div className="dropDownContent">
 
-                            <p><Link href="/courses"> Data Science </Link> </p>
+                            <p><Link href="/dataScience"> Data Science </Link> </p>
 
                             <p><Link href="/dataAnalystic"> Data Analytics </Link> </p>
 

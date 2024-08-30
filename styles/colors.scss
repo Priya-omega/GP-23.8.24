@@ -10,13 +10,81 @@ $grey: #4b4646;
 $paratxt: #b6eaff;
 $brown: #945E12;
 $lightblue: rgb(213 236 255);
+$iconColor: #fd9906;
+$goldenrod :goldenrod;
+$p: #6d6464;
 
 // ============ icons ========
 
 .handicon {
-    font-size: 1.5rem;
-    color: goldenrod;
+    font-size: 2rem;
+    color: $goldenrod;
 }
+
+.arrowFwd {
+    font-size: 1.6rem;
+    position: relative;
+    top: 0.45rem;
+    color: $iconColor;
+
+}
+
+.calendericon {
+    font-size: 1.3rem;
+    position: relative;
+    top: 0.2rem;
+    margin-right: 0.4rem;
+    color: $goldenrod;
+
+}
+
+.modeStudyicon {
+    font-size: 1.4rem;
+    position: relative;
+    top: 0.2rem;
+    margin-right: 0.4rem;
+    color: $goldenrod;
+
+}
+
+.libraryicon {
+    font-size: 1.5rem;
+    position: relative;
+    top: 0.3rem;
+    margin-right: 0.4rem;
+    color: $goldenrod;
+
+}
+
+.projecticon {
+    font-size: 1.45rem;
+    position: relative;
+    top: 0.3rem;
+    margin-right: 0.4rem;
+    color: $goldenrod;
+
+}
+
+.trainersicon {
+    font-size: 1.5rem;
+    position: relative;
+    top: 0.3rem;
+    margin-right: 0.4rem;
+    color: $goldenrod;
+
+}
+
+.placementicon {
+    font-size: 1.5rem;
+    position: relative;
+    top: 0.3rem;
+    margin-right: 0.4rem;
+    color: $goldenrod;
+
+}
+
+
+
 
 
 // ======================= fonts =================================
@@ -32,7 +100,7 @@ $h3: 1.6rem;
 
 p {
     font-family: $fonts;
-    color: #6d6464;
+    color: $p;
     margin-bottom: 1rem;
 }
 
@@ -41,7 +109,7 @@ a {
 }
 
 .pageContainer {
-    padding: 2rem 5%;
+    padding: 1.3rem 5% 1rem 5%;
 
     .heading {
         width: fit-content;

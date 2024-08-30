@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,7 +16,10 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-scroll-trigger": "^0.6.14",
-    "sass": "^1.77.8"
+    "react-slick": "^0.30.2",
+    "sass": "^1.77.8",
+    "slick-carousel": "^1.8.1",
+    "slick-slider": "^1.8.2"
   },
   "devDependencies": {
     "eslint": "^8",

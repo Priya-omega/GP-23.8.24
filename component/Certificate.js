@@ -15,9 +15,9 @@ export default function Certificate({ data, image }) {
 
                     </div>
 
-                    <h1 className='course'>{data.title} </h1>
+                    <p className='course'>{data.title} </p>
 
-                    <h2 className='title'> Course With Guarenteed <span className='highlight'> Placement</span></h2>
+                    <p className='title'> Course With Guarenteed <span className='highlight'> Placement</span></p>
 
                     <div className="para">
                         <p>Join Placement Guaranteed Courses <FaCheckCircle className='checkicon' /></p>

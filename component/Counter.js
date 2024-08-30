@@ -10,7 +10,7 @@ export default function Counter() {
                 <ScrollTrigger onEnter={() => setCounterstate(true)} onExit={() => setCounterstate(false)}>
                     <div className="text">
                         <h3>  Giving flight to your ambitions </h3>
-                        <p>Real success requires the right skillset. Through our online courses, you too can give wings to your dreams.</p>
+                        <p className='subpara'>Real success requires the right skillset. Through our online courses, you too can give wings to your dreams.</p>
                     </div>
 
                     <div className="container">

@@ -13,22 +13,19 @@ import Q10 from './HomepageQuestions/Q10'
 export default function HomeFaq() {
     return (
         <>
-            <div>
-                <div className="heading">
-                    <h3>Data Analytics - Frequently Asked Questions</h3>
-                </div>
+            <div className="faqs">
+                <Q1 />
+                <Q2 />
+                <Q3 />
+                <Q4 />
+                <Q5 />
+                <Q6 />
+                <Q7 />
+                <Q8 />
+                <Q9 />
+                <Q10 />
             </div>
 
-            <Q1 />
-            <Q2 />
-            <Q3 />
-            <Q4 />
-            <Q5 />
-            <Q6 />
-            <Q7 />
-            <Q8 />
-            <Q9 />
-            <Q10 />
         </>
     )
 }

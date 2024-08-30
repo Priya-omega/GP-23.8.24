@@ -2,7 +2,12 @@ import Certificate from '@/component/Certificate'
 import Counter from '@/component/Counter'
 import Layout from '@/component/Layout'
 import React from 'react'
+import DScourses from '@/component/DScourses'
+import HomeFaq from '@/component/HomeFaq'
 
+import HiringPartners from '@/component/HiringPartners'
+import FeedbackForm from '@/component/FeedbackForm'
+import Testimonials from '@/component/Testimonials'
 export default function dataAnalystic() {
 
     let image = {
@@ -22,6 +27,21 @@ export default function dataAnalystic() {
 
                 <div className="pageContainer">
                     <Counter />
+                    <DScourses />
+                    <HiringPartners />
+
+                    <FeedbackForm />
+
+                    <Testimonials />
+
+
+                </div>
+
+                <div className="pageContainer">
+                    <div className="heading2">
+                        <h3>Data Analystics - Frequently Asked Questions</h3>
+                    </div>
+                    <HomeFaq />
 
                 </div>
 

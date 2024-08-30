@@ -2,6 +2,12 @@ import Certificate from '@/component/Certificate'
 import Counter from '@/component/Counter'
 import Layout from '@/component/Layout'
 import React from 'react'
+import FaqPowerBi from '@/component/FaqPowerBi'
+import HomeFaq from '@/component/HomeFaq'
+
+import HiringPartners from '@/component/HiringPartners'
+import FeedbackForm from '@/component/FeedbackForm'
+import Testimonials from '@/component/Testimonials'
 
 export default function PowerBi() {
     let image = {
@@ -20,6 +26,18 @@ export default function PowerBi() {
 
                 <div className="pageContainer">
                     <Counter />
+                    <HiringPartners />
+
+                    <FeedbackForm />
+
+                    <Testimonials />
+                </div>
+
+                <div className="pageContainer">
+                    <div className="heading2">
+                        <h3>PowerBI - Frequently Asked Questions</h3>
+                    </div>
+                    <FaqPowerBi />
 
                 </div>
 

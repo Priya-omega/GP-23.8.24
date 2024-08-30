@@ -1,15 +1,18 @@
 import CompetitiveExam from '@/component/CompetitiveExam'
 import DScourses from '@/component/DScourses'
-import FeedbackForm from '@/component/FeedbackForm'
 import FScourses from '@/component/FScourses'
-import HiringPartners from '@/component/HiringPartners'
 import HomeFaq from '@/component/HomeFaq'
 import Layout from '@/component/Layout'
 import Poster from '@/component/Poster'
 import SAPcourses from '@/component/SAPcourses'
-import Testimonials from '@/component/Testimonials'
 import React from 'react'
 import { BsEmojiSunglasses, BsFire } from "react-icons/bs";
+
+import HiringPartners from '@/component/HiringPartners'
+import FeedbackForm from '@/component/FeedbackForm'
+import Testimonials from '@/component/Testimonials'
+import Link from 'next/link'
+import Reviews from '@/component/Reviews'
 
 export default function index() {
   return (
@@ -20,9 +23,6 @@ export default function index() {
 
         <Poster />
 
-        <FeedbackForm />
-
-        <HiringPartners />
 
         <div className="pageContainer">
 
@@ -55,6 +55,7 @@ export default function index() {
                 <button>Register Now</button>
               </div>
 
+
               <div className="box box2">
 
                 <div className="container">
@@ -73,7 +74,10 @@ export default function index() {
                   <img src="img/illu/14.svg" alt="" />
                 </div>
 
-                <button>Register Now</button>
+                <Link href="/JobCourses">
+                  <button>Register Now</button>
+
+                </Link>
               </div>
 
               <div className="box box3">
@@ -110,8 +114,6 @@ export default function index() {
 
           <CompetitiveExam />
 
-
-
           <div className="banner">
 
             <div className="text-box">
@@ -131,11 +133,28 @@ export default function index() {
             </div>
           </div>
 
-          <Testimonials />
+          <HiringPartners />
+        </div>
 
+
+        <FeedbackForm />
+
+
+        <div className="pageContainer">
+          <Reviews />
+
+        </div>
+
+
+        <div className="pageContainer">
+          <div className="heading2">
+            <h3>General - Frequently Asked Questions</h3>
+          </div>
           <HomeFaq />
 
         </div>
+
+
 
       </Layout>
 

@@ -2,6 +2,11 @@ import React from 'react'
 import Certificate from '@/component/Certificate'
 import Counter from '@/component/Counter'
 import Layout from '@/component/Layout'
+import FScourses from '@/component/FScourses'
+import HiringPartners from '@/component/HiringPartners'
+import FeedbackForm from '@/component/FeedbackForm'
+import Testimonials from '@/component/Testimonials'
+import HomeFaq from '@/component/HomeFaq'
 
 export default function fullstack() {
 
@@ -22,6 +27,20 @@ export default function fullstack() {
 
                 <div className="pageContainer">
                     <Counter />
+
+                    <FScourses />
+                    <HiringPartners />
+
+                    <FeedbackForm />
+
+                    <Testimonials />
+                </div>
+
+                <div className="pageContainer">
+                    <div className="heading2">
+                        <h3>FullStack - Frequently Asked Questions</h3>
+                    </div>
+                    <HomeFaq />
 
                 </div>
 
