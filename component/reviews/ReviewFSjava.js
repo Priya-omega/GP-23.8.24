@@ -16,8 +16,34 @@ export default function ReviewFSjava() {
         dots: true,
         infinite: true,
         speed: 1,
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
 
     return (
@@ -56,8 +82,8 @@ export default function ReviewFSjava() {
                     <div className='boxContainer'>
                         <Slider {...settings}>
 
-                            <div className="cardContainer">
-                                <div className='box'>
+                            <div className='box'>
+                                <div className="content">
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/usericon.png" alt="" />
@@ -77,7 +103,10 @@ export default function ReviewFSjava() {
                                     </div>
                                 </div>
 
-                                <div className='box'>
+                            </div>
+
+                            <div className='box'>
+                                <div className="content">
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/usericon.png" alt="" />
@@ -99,8 +128,8 @@ export default function ReviewFSjava() {
 
                             </div>
 
-                            <div className="cardContainer">
-                                <div className='box'>
+                            <div className='box'>
+                                <div className="content">
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/usericon.png" alt="" />
@@ -120,7 +149,10 @@ export default function ReviewFSjava() {
                                     </div>
                                 </div>
 
-                                <div className='box'>
+                            </div>
+
+                            <div className='box'>
+                                <div className="content">
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/usericon.png" alt="" />
@@ -142,9 +174,8 @@ export default function ReviewFSjava() {
 
                             </div>
 
-
-                            <div className="cardContainer">
-                                <div className='box'>
+                            <div className='box'>
+                                <div className="content">
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/usericon.png" alt="" />
@@ -164,7 +195,10 @@ export default function ReviewFSjava() {
                                     </div>
                                 </div>
 
-                                <div className='box'>
+                            </div>
+
+                            <div className='box'>
+                                <div className="content">
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/usericon.png" alt="" />
@@ -185,6 +219,8 @@ export default function ReviewFSjava() {
                                 </div>
 
                             </div>
+
+
 
 
 

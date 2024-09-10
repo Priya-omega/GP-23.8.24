@@ -39,7 +39,7 @@ export default function Certificate({ data, image }) {
                             </div>
                         </div>
 
-                        <div className="container">
+                        <div className="container container2">
                             <div className="box">
                                 <AiOutlineSetting className="techicon" /> Technical Support
                             </div>

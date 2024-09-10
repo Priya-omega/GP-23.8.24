@@ -63,9 +63,6 @@ export default function fullstack() {
                             </div>
                         </div>
 
-
-
-
                     </div>
                 </div>
 

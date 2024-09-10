@@ -59,7 +59,7 @@ export default function FullstackJava() {
                         <div className="courseDetailTable">
                             <div>
                                 <p><b> <FaRegCalendar className='calendericon' /> Tenure : </b> 6 Months</p>
-                                <p><b> <MdMenuBook className='modeStudyicon' /> Mode of Study : </b>  Online/Offline/Hybrid</p>
+                                <p><b> <MdMenuBook className='modeStudyicon' /> Mode of Study : </b>  Online/ Offline/ Hybrid</p>
                                 <p><b>  <MdLibraryBooks className='libraryicon' /> Course Structure :  </b> Modular</p>
                             </div>
 

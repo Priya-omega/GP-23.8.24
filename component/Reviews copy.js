@@ -16,34 +16,8 @@ export default function Reviews() {
         dots: true,
         infinite: true,
         speed: 1,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    initialSlide: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
+        slidesToShow: 1,
+        slidesToScroll: 1
     };
 
     return (
@@ -79,11 +53,11 @@ export default function Reviews() {
 
                 <div className="container2">
 
-                    <div className='boxContainer slider-container'>
+                    <div className='boxContainer'>
                         <Slider {...settings}>
 
-                            <div className='box'>
-                                <div className="content">
+                            <div className="cardContainer">
+                                <div className='box'>
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/test/1.jpeg" alt="" />
@@ -103,11 +77,7 @@ export default function Reviews() {
                                     </div>
                                 </div>
 
-                            </div>
-
-                            <div className='box'>
-                                <div className="content">
-
+                                <div className='box'>
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/test/2.jpeg" alt="" />
@@ -127,10 +97,11 @@ export default function Reviews() {
                                     </div>
                                 </div>
 
-                            </div>
-                            <div className='box'>
 
-                                <div className="content">
+                            </div>
+
+                            <div className="cardContainer">
+                                <div className='box'>
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/test/3.jpeg" alt="" />
@@ -149,10 +120,7 @@ export default function Reviews() {
                                         </p>
                                     </div>
                                 </div>
-
-                            </div>
-                            <div className='box'>
-                                <div className="content">
+                                <div className='box'>
                                     <div className="logo">
                                         <div className="img">
                                             <img src="img/test/5.jpeg" alt="" />
@@ -173,11 +141,8 @@ export default function Reviews() {
                                 </div>
 
 
+
                             </div>
-
-
-
-
 
 
 

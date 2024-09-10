@@ -31,7 +31,7 @@ export default function NavbarDesk() {
 
                             <p><Link href={pagelinks.fullstackjava}>   FullStack java </Link> </p>
 
-                            <p><Link href="/">  FullStack Python  </Link> </p>
+                            <p><Link href={pagelinks.pythonfullstack}>  FullStack Python  </Link> </p>
 
                             <p><Link href="/">  MernStack </Link> </p>
 

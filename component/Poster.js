@@ -14,7 +14,7 @@ export default function Poster() {
                         Certified Training Courses <PiCertificateBold className='degicon' />
                     </div>
 
-                    <h1 className='title'>Embed your future with <span className='highlight'> Guidence Point</span></h1>
+                    <h5 className='title'>Embed your future with <span className='highlight'> Guidence Point</span></h5>
 
                     <div className="para">
                         <p>Join Placement Guaranteed Courses <FaCheckCircle className='checkicon' /></p>
