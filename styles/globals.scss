@@ -82,9 +82,6 @@
 
 // ======================= text =====================================
 .text {
-
-
-
     h3 {
         color: $grey;
         font-size: $h3;
@@ -171,6 +168,22 @@
         }
     }
 }
+
+
+h4 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: $p;
+    font-family: $fonts;
+}
+
+@media (max-width:700px) {
+    h4 {
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+    }
+}
+
 
 // ======================= navbarDesk =====================================
 
@@ -509,26 +522,34 @@
 
 @media (max-width:700px) {
     .NavbarMobile {
-        height: 4rem;
+        height: 3.5rem;
         // width: 75%;
 
-        .logo {
-            // position: relative;
-            // left: 1rem;
-            margin-left: -1rem;
-            width: 65%;
 
-            img {
-                width: 75%;
-                height: 2.4rem;
+        .logo {
+
+            // left: 1rem;
+            // margin-left: -1rem;
+            // width: 65%;
+
+            p {
+                margin-top: 0.5rem;
+                color: #1089bd;
+                font-weight: 700;
+                font-size: 1.1rem;
             }
+
+            // img {
+            //     width: 75%;
+            //     height: 2.4rem;
+            // }
         }
 
         .nav-btn {
             display: inline-block;
             position: absolute;
             // top: 8%;
-            right: 0;
+            right: 0.5rem;
 
             label {
                 display: inline-block;
@@ -554,23 +575,21 @@
             position: absolute;
             display: block;
             text-align: left;
-
-
-            background: linear-gradient(to right, rgb(2, 0, 36) 0%, rgb(0, 184, 255) 100%);
-            // background-color: white;
-            // color: white;
-            color: grey;
+            // background: linear-gradient(to right, rgb(2, 0, 36) 0%, rgb(0, 184, 255) 100%);
+            background-color: white;
+            color: black;
+            // color: grey;
 
             transition: all 0.3s linear;
             overflow-y: hidden;
-            top: 6rem;
+            top: 5.5rem;
             right: 0px;
 
             .NavLink {
-                color: white;
-                font-size: 1.3rem;
+                color: grey;
+                font-size: 1.1rem;
                 display: block;
-                padding: 1.5rem 1.5rem;
+                padding: 1rem 1.5rem;
             }
 
             .Active {
@@ -580,6 +599,9 @@
             .dropdown {
                 float: none;
                 width: 100%;
+                box-sizing: border-box;
+                padding: 0 0.5rem;
+
 
                 .dropBtn {
                     width: 60%;
@@ -587,7 +609,7 @@
 
                 .down-arrow {
                     // right: 1.5rem;
-                    color: white;
+                    color: rgb(122, 115, 115);
                     position: absolute;
                     top: 1.55rem;
                     font-size: 1.3rem;
@@ -595,9 +617,8 @@
                 }
 
                 .drop-content {
-                    background: linear-gradient(to right, rgb(2, 0, 36) 0%, rgb(0, 184, 255) 100%);
-
-
+                    // background: linear-gradient(to right, rgb(2, 0, 36) 0%, rgb(0, 184, 255) 100%);
+                    background-color: rgb(244, 240, 240);
                     // background-image: linear-gradient(to right, #7aa1db, #1a4586);
                     // background: linear-gradient(to right, rgb(2, 0, 36) 0%, rgb(0, 184, 255) 100%);
                     position: relative;
@@ -672,9 +693,7 @@
             box-shadow: 0px 15px 25px rgb(0 0 0);
         }
 
-        .search {
-            display: none;
-        }
+
     }
 }
 
@@ -823,10 +842,13 @@
     .poster {
         height: auto;
         background-size: 100% 100%;
-        padding: 1rem 8% 1rem 8%;
+        padding: 1.5rem 8% 2rem 8%;
+        display: flex;
+        flex-direction: column;
 
         .text {
             width: 100%;
+            margin-bottom: 0rem !important;
 
             .tag {
                 padding: 0.1rem 1rem 0.5rem 1rem;
@@ -859,12 +881,20 @@
 
                 .box {
                     line-height: 2.2rem;
+                    width: 15rem;
                 }
+            }
+
+            .container2 {
+                margin-top: -1rem;
             }
         }
 
         .formContainer {
-            display: none;
+            position: relative;
+            left: 0;
+            width: 100%;
+
         }
     }
 }
@@ -1936,6 +1966,16 @@
 .Testimonial {
     margin: 3rem 0 4rem 0;
     box-sizing: border-box;
+    padding: 0 0.5rem;
+
+    .slick-next {
+
+        right: -5px;
+    }
+
+    .slick-prev {
+        left: 16px;
+    }
 
     .container1 {
         // padding: 4rem 2rem 2rem 5rem;
@@ -2018,7 +2058,7 @@
                 .content {
                     display: flex;
                     flex-direction: column;
-                    height: 14rem;
+                    // height: 14rem;
                     border-radius: 0.5rem;
                     // box-shadow: rgb(43 120 199 / 37%) 0px 3px 8px;
                     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -2115,7 +2155,6 @@
 
 }
 
-
 @media (max-width:700px) {
     .Testimonial {
         display: flex;
@@ -2171,6 +2210,9 @@
 
             .box {
                 .content {
+                    height: auto;
+                    padding-bottom: 1rem;
+
                     .logo {
                         .name {
 
@@ -2378,7 +2420,7 @@
 
                 .count {
                     width: 100%;
-                    height: 5rem;
+                    height: 4rem;
                     font-size: 1.1rem;
                 }
 
@@ -2747,6 +2789,45 @@
         p {
             line-height: 1.5rem;
             margin-bottom: 1.5rem;
+        }
+    }
+}
+
+// ========================= Topbar ====================================
+.topbar {
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .topbar {
+        display: block;
+        padding: 0.3rem 0;
+        background-color: #fff476;
+        font-size: 0.9rem;
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .phoneicon {
+                position: relative;
+                top: 0.2rem;
+                color: $grey;
+            }
+
+            .mailicon {
+                position: relative;
+                top: 0.32rem;
+                font-size: 1.2rem;
+                color: $grey;
+
+            }
+
+            .box1 {
+                position: relative;
+                bottom: 0.12rem;
+            }
         }
     }
 }

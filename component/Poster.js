@@ -36,7 +36,7 @@ export default function Poster() {
                             </div>
                         </div>
 
-                        <div className="container">
+                        <div className="container container2">
                             <div className="box">
                                 <AiOutlineSetting className="techicon" /> Technical Support
                             </div>

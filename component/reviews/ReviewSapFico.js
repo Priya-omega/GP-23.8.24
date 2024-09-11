@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-export default function ReviewFS() {
+export default function ReviewSapFico() {
     var settings = {
         autoplay: true,
         dots: true,
@@ -83,6 +83,7 @@ export default function ReviewFS() {
                         <Slider {...settings}>
 
                             <div className='box'>
+
                                 <div className="content">
                                     <div className="logo">
                                         <div className="img">
@@ -90,61 +91,14 @@ export default function ReviewFS() {
                                         </div>
 
                                         <div className="name">
-                                            <p className='bold'>Priya Deshmukh</p>
-                                            <p> <span> Course : </span> Data Science </p>
+                                            <p className='bold'> Amitrao Deshmukh </p>
+                                            <p> <span> Course : </span> SAP FICO Course </p>
                                         </div>
                                     </div>
 
                                     <div className="txt">
                                         <p ><FaQuoteLeft className='leftquote' />
-                                            Guidance Point full stack developer course in Pune was fantastic! The curriculum was inclusive wherein it covered from front-end to back end technologies. The hands-on projects and great instructors broke down tough ideas into digestible pieces. Special thanks for the Job guarantee and support in LinkedIn Profile optimization. Highly recommended!"
-                                            <FaQuoteRight className='rightquote' />
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div className='box'>
-                                <div className="content">
-                                    <div className="logo">
-                                        <div className="img">
-                                            <img src="img/usericon.png" alt="" />
-                                        </div>
-
-                                        <div className="name">
-                                            <p className='bold'> Rohit Kulkarni</p>
-                                            <p> <span> Course : </span> Data Science </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="txt">
-                                        <p ><FaQuoteLeft className='leftquote' />
-                                            The best decision of my career was to take up the full stack classes in Pune. The perfect mix of classroom & online training that gave me hands-on experience and deep learning. The mock interviews, and resume building workshops were crucial to help me get my first job in tech. Thank you, Guidance Point!"
-                                            <FaQuoteRight className='rightquote' />
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div className='box'>
-                                <div className="content">
-
-                                    <div className="logo">
-                                        <div className="img">
-                                            <img src="img/usericon.png" alt="" />
-                                        </div>
-
-                                        <div className="name">
-                                            <p className='bold'>Sneha Patil</p>
-                                            <p> <span> Course : </span> Data Science </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="txt">
-                                        <p ><FaQuoteLeft className='leftquote' />
-                                            I loved the hands-on approach of the full stack developer course in Pune at Guidance Point. Studying the latest technologies such as React and Node. js was a game-changer for me. It was updated course material and most importantly pay-after-placement option. Now I am a successful web developer…and I owe that to this program!
+                                            "The SAP FICO course in Pune was exceptional! The curriculum was comprehensive, and the instructors were knowledgeable. The hands-on experience with real-world scenarios was particularly valuable. Highly recommend this course for anyone looking to advance their career in finance and has very suitable SAP FICO Course fees in Pune."
                                             <FaQuoteRight className='rightquote' />
                                         </p>
                                     </div>
@@ -161,37 +115,14 @@ export default function ReviewFS() {
                                         </div>
 
                                         <div className="name">
-                                            <p className='bold'>Ankit Jadhav</p>
-                                            <p> <span> Course : </span> Data Science </p>
+                                            <p className='bold'> Neelam Jadhav </p>
+                                            <p> <span> Course : </span> SAP FICO Course </p>
                                         </div>
                                     </div>
 
                                     <div className="txt">
                                         <p ><FaQuoteLeft className='leftquote' />
-                                            My experience with the course was awesome it's way beyond my expectations this is a true measure of its effectiveness. They were especially valuable to me for the fact that it was a very knowledgeable set of instructors and we got to do a lot of hands on projects which ramped everything up. The job preparation support, including mock interviews and LinkedIn profiling, was very good. I recently got placed in an amazing job at a top tech company and I am super excited about that!
-                                            <FaQuoteRight className='rightquote' />
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div className='box'>
-                                <div className="content">
-                                    <div className="logo">
-                                        <div className="img">
-                                            <img src="img/usericon.png" alt="" />
-                                        </div>
-
-                                        <div className="name">
-                                            <p className='bold'>Mitali More</p>
-                                            <p> <span> Course : </span> Data Science </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="txt">
-                                        <p ><FaQuoteLeft className='leftquote' />
-                                            Guidance Point Full Stack Development is a good course to start learning from basics and more importantly "Full stack". The classroom and hybrid training meet worked well for my schedule As it covered all the modern technologies and they also gave me a job guarantee which kept my head calm. This year, I am too well prepared to embark on a thriving web development career.
+                                            "I recently completed the SAP FICO course, and it exceeded my expectations. The training was well-structured, and the support from the faculty was outstanding. I feel confident in applying what I’ve learned to my current role. Great course for professionals seeking career growth in finance."
                                             <FaQuoteRight className='rightquote' />
                                         </p>
                                     </div>
@@ -208,22 +139,68 @@ export default function ReviewFS() {
                                         </div>
 
                                         <div className="name">
-                                            <p className='bold'>Sneha Patil</p>
-                                            <p> <span> Course : </span> Data Science </p>
+                                            <p className='bold'> Sachin Patil </p>
+                                            <p> <span> Course : </span> SAP FICO Course </p>
                                         </div>
                                     </div>
 
                                     <div className="txt">
                                         <p ><FaQuoteLeft className='leftquote' />
-                                            I loved the hands-on approach of the full stack developer course in Pune at Guidance Point. Studying the latest technologies such as React and Node. js was a game-changer for me. It was updated course material and most importantly pay-after-placement option. Now I am a successful web developer…and I owe that to this program!
+                                            "This SAP FICO Training in Pune offers excellent value for money as it has very affordable SAP FICO Course fees in Pune. The practical sessions and expert guidance provided were instrumental in grasping complex concepts. The course has significantly boosted my expertise and employability. I’m very pleased with the results."
                                             <FaQuoteRight className='rightquote' />
                                         </p>
                                     </div>
-
                                 </div>
 
                             </div>
 
+                            <div className='box'>
+
+                                <div className="content">
+                                    <div className="logo">
+                                        <div className="img">
+                                            <img src="img/usericon.png" alt="" />
+                                        </div>
+
+                                        <div className="name">
+                                            <p className='bold'> Aishwarya Kulkarni </p>
+                                            <p> <span> Course : </span> SAP FICO Course </p>
+                                        </div>
+                                    </div>
+
+                                    <div className="txt">
+                                        <p ><FaQuoteLeft className='leftquote' />
+                                            "The SAP FICO course was a fantastic learning experience. The blend of theoretical knowledge and practical applications helped me understand the nuances of SAP FICO. The trainers were experienced and approachable. I’m grateful for the skills I’ve gained through this course."
+                                            <FaQuoteRight className='rightquote' />
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div className='box'>
+
+                                <div className="content">
+                                    <div className="logo">
+                                        <div className="img">
+                                            <img src="img/usericon.png" alt="" />
+                                        </div>
+
+                                        <div className="name">
+                                            <p className='bold'> Kiran Ghorpade </p>
+                                            <p> <span> Course : </span> SAP FICO Course </p>
+                                        </div>
+                                    </div>
+
+                                    <div className="txt">
+                                        <p ><FaQuoteLeft className='leftquote' />
+                                            "I highly recommend this SAP FICO course in Pune. The program was meticulously designed, and the trainers were experts in their field. The hands-on approach and real-world case studies prepared me well for professional challenges. A great investment for anyone serious about a career in finance."
+                                            <FaQuoteRight className='rightquote' />
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
 
 
 

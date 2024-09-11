@@ -71,15 +71,15 @@ export default function NavbarDesk() {
                     </div>
 
                     <div className="dropDown">
-                        <Link href="/courses"> SAP </Link>
+                        <Link href=""> SAP </Link>
 
                         <div className="dropDownContent">
 
-                            <p><Link href="/courses"> SAP FICO </Link> </p>
+                            <p><Link href={pagelinks.sapFICO}> SAP FICO </Link> </p>
 
-                            <p><Link href="/dataAnalystic"> SAP MM </Link> </p>
+                            <p><Link href=""> SAP MM </Link> </p>
 
-                            <p><Link href="/PowerBI"> SAP SD </Link> </p>
+                            <p><Link href=""> SAP SD </Link> </p>
 
                         </div>
                     </div>

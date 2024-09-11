@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-export default function ReviewFS() {
+export default function ReviewFSpython() {
     var settings = {
         autoplay: true,
         dots: true,
@@ -83,6 +83,7 @@ export default function ReviewFS() {
                         <Slider {...settings}>
 
                             <div className='box'>
+
                                 <div className="content">
                                     <div className="logo">
                                         <div className="img">
@@ -90,61 +91,14 @@ export default function ReviewFS() {
                                         </div>
 
                                         <div className="name">
-                                            <p className='bold'>Priya Deshmukh</p>
-                                            <p> <span> Course : </span> Data Science </p>
+                                            <p className='bold'>Aaditya Deshmukh</p>
+                                            <p> <span> Course : </span> Python Developer </p>
                                         </div>
                                     </div>
 
                                     <div className="txt">
                                         <p ><FaQuoteLeft className='leftquote' />
-                                            Guidance Point full stack developer course in Pune was fantastic! The curriculum was inclusive wherein it covered from front-end to back end technologies. The hands-on projects and great instructors broke down tough ideas into digestible pieces. Special thanks for the Job guarantee and support in LinkedIn Profile optimization. Highly recommended!"
-                                            <FaQuoteRight className='rightquote' />
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div className='box'>
-                                <div className="content">
-                                    <div className="logo">
-                                        <div className="img">
-                                            <img src="img/usericon.png" alt="" />
-                                        </div>
-
-                                        <div className="name">
-                                            <p className='bold'> Rohit Kulkarni</p>
-                                            <p> <span> Course : </span> Data Science </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="txt">
-                                        <p ><FaQuoteLeft className='leftquote' />
-                                            The best decision of my career was to take up the full stack classes in Pune. The perfect mix of classroom & online training that gave me hands-on experience and deep learning. The mock interviews, and resume building workshops were crucial to help me get my first job in tech. Thank you, Guidance Point!"
-                                            <FaQuoteRight className='rightquote' />
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div className='box'>
-                                <div className="content">
-
-                                    <div className="logo">
-                                        <div className="img">
-                                            <img src="img/usericon.png" alt="" />
-                                        </div>
-
-                                        <div className="name">
-                                            <p className='bold'>Sneha Patil</p>
-                                            <p> <span> Course : </span> Data Science </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="txt">
-                                        <p ><FaQuoteLeft className='leftquote' />
-                                            I loved the hands-on approach of the full stack developer course in Pune at Guidance Point. Studying the latest technologies such as React and Node. js was a game-changer for me. It was updated course material and most importantly pay-after-placement option. Now I am a successful web developer…and I owe that to this program!
+                                            "This Python Full stack developer course in Pune truly surpassed my expectations. The instructors are very knowledgeable, and the hands-on projects helped me gain confidence in both back-end and front-end development. I now feel ready to tackle any job in this field!"
                                             <FaQuoteRight className='rightquote' />
                                         </p>
                                     </div>
@@ -161,37 +115,14 @@ export default function ReviewFS() {
                                         </div>
 
                                         <div className="name">
-                                            <p className='bold'>Ankit Jadhav</p>
-                                            <p> <span> Course : </span> Data Science </p>
+                                            <p className='bold'> Neha Patil </p>
+                                            <p> <span> Course : </span> Python Developer </p>
                                         </div>
                                     </div>
 
                                     <div className="txt">
                                         <p ><FaQuoteLeft className='leftquote' />
-                                            My experience with the course was awesome it's way beyond my expectations this is a true measure of its effectiveness. They were especially valuable to me for the fact that it was a very knowledgeable set of instructors and we got to do a lot of hands on projects which ramped everything up. The job preparation support, including mock interviews and LinkedIn profiling, was very good. I recently got placed in an amazing job at a top tech company and I am super excited about that!
-                                            <FaQuoteRight className='rightquote' />
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div className='box'>
-                                <div className="content">
-                                    <div className="logo">
-                                        <div className="img">
-                                            <img src="img/usericon.png" alt="" />
-                                        </div>
-
-                                        <div className="name">
-                                            <p className='bold'>Mitali More</p>
-                                            <p> <span> Course : </span> Data Science </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="txt">
-                                        <p ><FaQuoteLeft className='leftquote' />
-                                            Guidance Point Full Stack Development is a good course to start learning from basics and more importantly "Full stack". The classroom and hybrid training meet worked well for my schedule As it covered all the modern technologies and they also gave me a job guarantee which kept my head calm. This year, I am too well prepared to embark on a thriving web development career.
+                                            "I was in search of a comprehensive course that offered practical experience, and this one was just right. The curriculum spans everything from the basics to advanced Python concepts, complete with numerous real-world examples. I highly recommend it for anyone serious about a career in software development."
                                             <FaQuoteRight className='rightquote' />
                                         </p>
                                     </div>
@@ -208,21 +139,69 @@ export default function ReviewFS() {
                                         </div>
 
                                         <div className="name">
-                                            <p className='bold'>Sneha Patil</p>
-                                            <p> <span> Course : </span> Data Science </p>
+                                            <p className='bold'> Sanjay Kulkarni </p>
+                                            <p> <span> Course : </span> Python Developer </p>
                                         </div>
                                     </div>
 
                                     <div className="txt">
                                         <p ><FaQuoteLeft className='leftquote' />
-                                            I loved the hands-on approach of the full stack developer course in Pune at Guidance Point. Studying the latest technologies such as React and Node. js was a game-changer for me. It was updated course material and most importantly pay-after-placement option. Now I am a successful web developer…and I owe that to this program!
+                                            "I appreciated the structure of the course. The step-by-step approach made it easier to understand complex concepts, and the support from the instructors was fantastic. I also valued the emphasis on industry best practices and modern tools. This course has significantly enhanced my career prospects."
                                             <FaQuoteRight className='rightquote' />
                                         </p>
                                     </div>
-
                                 </div>
 
                             </div>
+
+                            <div className='box'>
+
+                                <div className="content">
+                                    <div className="logo">
+                                        <div className="img">
+                                            <img src="img/usericon.png" alt="" />
+                                        </div>
+
+                                        <div className="name">
+                                            <p className='bold'> Pooja Joshi </p>
+                                            <p> <span> Course : </span> Python Developer </p>
+                                        </div>
+                                    </div>
+
+                                    <div className="txt">
+                                        <p ><FaQuoteLeft className='leftquote' />
+                                            "This course was a transformative experience for me! The blend of theory and practical projects made learning both engaging and effective. I found the modules on API development and DevOps particularly enlightening. I now have a solid grasp of how to create full-scale applications."
+                                            <FaQuoteRight className='rightquote' />
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div className='box'>
+
+                                <div className="content">
+                                    <div className="logo">
+                                        <div className="img">
+                                            <img src="img/usericon.png" alt="" />
+                                        </div>
+
+                                        <div className="name">
+                                            <p className='bold'> Rohan Shinde </p>
+                                            <p> <span> Course : </span> Python Developer </p>
+                                        </div>
+                                    </div>
+
+                                    <div className="txt">
+                                        <p ><FaQuoteLeft className='leftquote' />
+                                            "This is an exceptional course for anyone aiming to excel in Python Full stack developer course in Pune. The instructors are friendly, and the content is current with the latest technologies. The capstone project was both challenging and rewarding, and it played a key role in helping me secure a fantastic job offer!"
+                                            <FaQuoteRight className='rightquote' />
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
 
 
 
