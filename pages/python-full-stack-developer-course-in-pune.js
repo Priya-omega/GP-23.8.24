@@ -21,7 +21,7 @@ import FSpythonque from '@/component/FAQs/FSpython/FSpythonque'
 
 export default function python() {
     let image = {
-        background: "linear-gradient(90deg, #0b4e7a, rgb(157 146 238 / 1%)), url(img/bg/9.jpg) no-repeat center center/cover"
+        background: "linear-gradient(90deg, rgb(3 41 67), rgb(157 146 238 / 1%)), url(img/bg/3.jpg) no-repeat center center/cover"
     }
 
     let data = {

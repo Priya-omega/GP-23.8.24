@@ -32,7 +32,7 @@ export default function dataAnalystic() {
 
                     <FeedbackForm />
 
-                    <Testimonials />
+                    {/* <Testimonials /> */}
 
 
                 </div>

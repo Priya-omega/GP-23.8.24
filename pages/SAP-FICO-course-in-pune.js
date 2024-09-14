@@ -25,7 +25,7 @@ import SAPcourses from '@/component/SAPcourses'
 export default function SAPFICO() {
 
     let image = {
-        background: "linear-gradient(90deg, #0b4e7a, rgb(157 146 238 / 1%)), url(img/bg/2.jpg) no-repeat center center/cover"
+        background: "linear-gradient(90deg,rgb(13 121 128), rgb(157 146 238 / 1%)), url(img/bg/22.jpeg) no-repeat center center/cover"
     }
 
     let data = {

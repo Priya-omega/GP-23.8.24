@@ -19,7 +19,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap1.webp" alt="" />
+                            <img src="img/sap/SAP1.webp" alt="" />
 
                         </div>
                         <div className="txt">
@@ -34,7 +34,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap2.webp" alt="" />
+                            <img src="img/sap/SAP2.webp" alt="" />
 
                         </div>
                         <div className="txt">
@@ -49,7 +49,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap3.webp" alt="" />
+                            <img src="img/sap/SAP3.webp" alt="" />
 
                         </div>
                         <div className="txt">
@@ -64,7 +64,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap4.webp" alt="" />
+                            <img src="img/sap/SAP4.webp" alt="" />
 
                         </div>
                         <div className="txt">
@@ -79,7 +79,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap5.webp" alt="" />
+                            <img src="img/sap/SAP5.webp" alt="" />
 
                         </div>
                         <div className="txt">
@@ -94,7 +94,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap6.webp" alt="" />
+                            <img src="img/sap/SAP6.webp" alt="" />
 
                         </div>
                         <div className="txt">
@@ -109,7 +109,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap7.webp" alt="" />
+                            <img src="img/sap/SAP7.webp" alt="" />
 
                         </div>
                         <div className="txt">
@@ -124,7 +124,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap8.webp" alt="" />
+                            <img src="img/sap/SAP8.webp" alt="" />
 
                         </div>
                         <div className="txt">
@@ -139,7 +139,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap9.webp" alt="" />
+                            <img src="img/sap/SAP9.webp" alt="" />
 
                         </div>
                         <div className="txt">
@@ -154,7 +154,7 @@ export default function SAPcourses() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/sap/sap10.webp" alt="" />
+                            <img src="img/sap/SAP10.webp" alt="" />
 
                         </div>
                         <div className="txt">

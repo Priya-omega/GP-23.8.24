@@ -30,7 +30,7 @@ export default function PowerBi() {
 
                     <FeedbackForm />
 
-                    <Testimonials />
+                    {/* <Testimonials /> */}
                 </div>
 
                 <div className="pageContainer">

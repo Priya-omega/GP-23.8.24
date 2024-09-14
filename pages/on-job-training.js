@@ -19,7 +19,7 @@ import FSjavaque from '@/component/FAQs/FSjava/FSjavaque'
 
 export default function jobtraining() {
     let image = {
-        background: "linear-gradient(90deg, #0b4e7a, rgb(157 146 238 / 1%)), url(img/bg/2.jpg) no-repeat center center/cover"
+        background: "linear-gradient(90deg, #0b4e7a, rgb(157 146 238 / 1%)), url(img/bg/23.png) no-repeat center center/cover"
     }
 
     let data = {

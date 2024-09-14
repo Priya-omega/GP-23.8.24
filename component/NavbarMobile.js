@@ -16,6 +16,7 @@ import { pagelinks } from '../pagelinks'
 function Nav() {
     const [toggle, setToggle] = useState(false);
     const [toggle2, setToggle2] = useState(false);
+    const [toggle3, setToggle3] = useState(false);
 
     const { asPath } = useRouter();
 
@@ -24,11 +25,9 @@ function Nav() {
 
             <div className="NavbarMobile">
 
-                {/* <!-- Navbar logo --> */}
                 <div className='logo'>
                     <p>Guidence Point</p>
                 </div>
-
 
                 {/* <!-- responsive navbar toggle button --> */}
                 <input type="checkbox" id="nav-check" />
@@ -42,25 +41,29 @@ function Nav() {
 
 
                 {/* <!-- Navbar items --> */}
+
                 <div className="nav-links">
 
 
                     <Link href="/" className={asPath === '/' ? "Active NavLink" : "NavLink"}>Home</Link>
 
-
-                    {/* <!-- Dropdown menu --> */}
+                    {/* <!-- fullstack Dropdown  --> */}
                     <div className="dropdown">
 
 
-                        <Link href={pagelinks.fullstack} className={asPath === '/' ? "Active NavLink" : "NavLink"}>FullStack</Link><IoIosArrowDown onClick={() => setToggle(!toggle)} className='down-arrow' />
+                        <Link href={pagelinks.fullstack} className={asPath === `${pagelinks.fullstack}` ? "Active NavLink" : "NavLink"}>FullStack</Link><IoIosArrowDown onClick={() => setToggle(!toggle)} className='down-arrow' />
 
                         {
                             toggle && (
                                 <div className="drop-content">
+                                    <div className="content">
 
-                                    <Link href={pagelinks.fullstackjava} className={asPath === '/' ? "Active NavLink" : "NavLink"} >FullStack java  </Link>
+                                        <Link href={pagelinks.fullstackjava} className={asPath === `${pagelinks.fullstackjava}` ? "Active NavLink" : "NavLink"} >FullStack java  </Link>
 
-                                    <Link href={pagelinks.pythonfullstack} className={asPath === '/' ? "Active NavLink" : "NavLink"} >FullStack Python  </Link>
+                                        <Link href={pagelinks.pythonfullstack} className={asPath === `${pagelinks.pythonfullstack}` ? "Active NavLink" : "NavLink"} >FullStack Python  </Link>
+
+                                        <Link href={pagelinks.jobTraining} className={asPath === `${pagelinks.jobTraining}` ? "Active NavLink" : "NavLink"} >Job Training  </Link>
+                                    </div>
 
                                 </div>
                             )
@@ -69,13 +72,41 @@ function Nav() {
                     </div>
 
                     <div className="dropdown">
-                        <Link href={pagelinks.fullstack} className={asPath === '/' ? "Active NavLink" : "NavLink"}>SAP</Link><IoIosArrowDown onClick={() => setToggle(!toggle)} className='down-arrow' />
+
+
+                        <Link href="dataScience" className={asPath === `${pagelinks.fullstack}` ? "Active NavLink" : "NavLink"}>Data Science</Link><IoIosArrowDown onClick={() => setToggle3(!toggle3)} className='down-arrow' />
 
                         {
-                            toggle && (
+                            toggle3 && (
                                 <div className="drop-content">
+                                    <div className="content">
 
-                                    <Link href={pagelinks.sapFICO} className={asPath === '/SAP-FICO-course-in-pune' ? "Active NavLink" : "NavLink"} >SAP FICO  </Link>
+                                        <Link href="/dataScience" className={asPath === `${pagelinks.fullstackjava}` ? "Active NavLink" : "NavLink"} > Data Science </Link>
+
+                                        <Link href="/dataAnalystic" className={asPath === `${pagelinks.pythonfullstack}` ? "Active NavLink" : "NavLink"} >Data Analytics </Link>
+
+                                    </div>
+
+                                </div>
+                            )
+                        }
+
+                    </div>
+
+
+                    <Link href="" className={asPath === '' ? "Active NavLink" : "NavLink"}>Competitive Exams</Link>
+
+                    {/* <!-- SAP Dropdown  --> */}
+                    <div className="dropdown sapDwn">
+                        <Link href="" className={asPath === '' ? "Active NavLink" : "NavLink"}>SAP</Link><IoIosArrowDown onClick={() => setToggle2(!toggle2)} className='down-arrow' />
+
+                        {
+                            toggle2 && (
+                                <div className="drop-content">
+                                    <div className="content">
+                                        <Link href={pagelinks.sapFICO} className={asPath === '/SAP-FICO-course-in-pune' ? "Active NavLink" : "NavLink"} >SAP FICO  </Link>
+
+                                    </div>
 
 
 
@@ -84,10 +115,14 @@ function Nav() {
                         }
 
                     </div>
+
+                    <Link href="" className={asPath === '' ? "Active NavLink" : "NavLink"}>PAP</Link>
 
 
 
                 </div>
+
+
 
 
 
