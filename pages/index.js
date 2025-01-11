@@ -13,6 +13,7 @@ import FeedbackForm from '@/component/FeedbackForm'
 import Testimonials from '@/component/Testimonials'
 import Link from 'next/link'
 import Reviews from '@/component/Reviews'
+import Mobileform from '@/component/Mobileform'
 
 export default function index() {
   return (
@@ -22,6 +23,8 @@ export default function index() {
       <Layout>
 
         <Poster />
+
+        <Mobileform />
 
 
         <div className="pageContainer">

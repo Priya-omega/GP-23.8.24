@@ -17,6 +17,7 @@ function Nav() {
     const [toggle, setToggle] = useState(false);
     const [toggle2, setToggle2] = useState(false);
     const [toggle3, setToggle3] = useState(false);
+    const [toggle4, setToggle4] = useState(false);
 
     const { asPath } = useRouter();
 
@@ -47,7 +48,7 @@ function Nav() {
 
                     <Link href="/" className={asPath === '/' ? "Active NavLink" : "NavLink"}>Home</Link>
 
-                    {/* <!-- fullstack Dropdown  --> */}
+
                     <div className="dropdown">
 
 
@@ -62,7 +63,7 @@ function Nav() {
 
                                         <Link href={pagelinks.pythonfullstack} className={asPath === `${pagelinks.pythonfullstack}` ? "Active NavLink" : "NavLink"} >FullStack Python  </Link>
 
-                                        <Link href={pagelinks.jobTraining} className={asPath === `${pagelinks.jobTraining}` ? "Active NavLink" : "NavLink"} >Job Training  </Link>
+                                        <Link href={pagelinks.jobTraining} className={asPath === `${pagelinks.jobTraining}` ? "Active NavLink" : "NavLink"} > On Job Training  </Link>
                                     </div>
 
                                 </div>
@@ -74,16 +75,16 @@ function Nav() {
                     <div className="dropdown">
 
 
-                        <Link href="dataScience" className={asPath === `${pagelinks.fullstack}` ? "Active NavLink" : "NavLink"}>Data Science</Link><IoIosArrowDown onClick={() => setToggle3(!toggle3)} className='down-arrow' />
+                        <Link href="/dataScience" className={asPath === "/dataScience" ? "Active NavLink" : "NavLink"}>Data Science</Link><IoIosArrowDown onClick={() => setToggle3(!toggle3)} className='down-arrow' />
 
                         {
                             toggle3 && (
                                 <div className="drop-content">
                                     <div className="content">
 
-                                        <Link href="/dataScience" className={asPath === `${pagelinks.fullstackjava}` ? "Active NavLink" : "NavLink"} > Data Science </Link>
+                                        <Link href="/dataScience" className={asPath === "/dataScience" ? "Active NavLink" : "NavLink"} > Data Science </Link>
 
-                                        <Link href="/dataAnalystic" className={asPath === `${pagelinks.pythonfullstack}` ? "Active NavLink" : "NavLink"} >Data Analytics </Link>
+                                        <Link href="/dataAnalystic" className={asPath === "/dataAnalystic" ? "Active NavLink" : "NavLink"} >Data Analytics </Link>
 
                                     </div>
 
@@ -93,10 +94,6 @@ function Nav() {
 
                     </div>
 
-
-                    <Link href="" className={asPath === '' ? "Active NavLink" : "NavLink"}>Competitive Exams</Link>
-
-                    {/* <!-- SAP Dropdown  --> */}
                     <div className="dropdown sapDwn">
                         <Link href="" className={asPath === '' ? "Active NavLink" : "NavLink"}>SAP</Link><IoIosArrowDown onClick={() => setToggle2(!toggle2)} className='down-arrow' />
 
@@ -116,7 +113,28 @@ function Nav() {
 
                     </div>
 
-                    <Link href="" className={asPath === '' ? "Active NavLink" : "NavLink"}>PAP</Link>
+                    <div className="dropdown">
+
+                        <Link href="" className={asPath === '' ? "Active NavLink" : "NavLink"}> PAP </Link><IoIosArrowDown onClick={() => setToggle4(!toggle4)} className='down-arrow' />
+
+                        {
+                            toggle4 && (
+
+                                <div className="drop-content">
+                                    <div className="content">
+                                        <Link href="/PowerBI" className={asPath === "/PowerBI" ? "Active NavLink" : "NavLink"} > Power BI  </Link>
+
+                                    </div>
+
+
+
+                                </div>
+                            )
+                        }
+
+                    </div>
+
+                    {/* <Link href="" className={asPath === '' ? "Active NavLink" : "NavLink"}>PAP</Link> */}
 
 
 

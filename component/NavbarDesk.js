@@ -33,7 +33,7 @@ export default function NavbarDesk() {
 
                             <p><Link href={pagelinks.pythonfullstack}>  FullStack Python  </Link> </p>
 
-                            <p><Link href={pagelinks.jobTraining}>  Job Training  </Link> </p>
+                            <p><Link href={pagelinks.jobTraining}>  On Job Training  </Link> </p>
 
                             {/* <p><Link href="/">  MernStack </Link> </p> */}
 
@@ -57,25 +57,12 @@ export default function NavbarDesk() {
                     </div>
 
                     <div className="dropDown">
-                        <Link href="/courses"> Competitive </Link>
-
-                        <div className="dropDownContent">
-
-
-
-                            <p><Link href="/PowerBI"> Power BI </Link> </p>
-
-                            {/* <p><Link href="/fullstack"> Full Stack </Link></p> */}
-
-                        </div>
-                    </div>
-
-                    <div className="dropDown">
                         <Link href=""> SAP </Link>
 
                         <div className="dropDownContent">
 
                             <p><Link href={pagelinks.sapFICO}> SAP FICO </Link> </p>
+                            <p> </p>
 
                             {/* <p><Link href=""> SAP MM </Link> </p>
 
@@ -85,9 +72,25 @@ export default function NavbarDesk() {
                     </div>
 
                     <div className="dropDown">
+                        <Link href=""> PAP </Link>
+
+                        <div className="dropDownContent">
+
+
+
+                            <p><Link href="/PowerBI"> PowerBI </Link> </p>
+
+                            {/* <p><Link href="/fullstack"> Full Stack </Link></p> */}
+
+                        </div>
+                    </div>
+
+
+
+                    {/* <div className="dropDown">
                         <Link href="/courses"> PAP </Link>
 
-                        {/* <div className="dropDownContent">
+                        <div className="dropDownContent">
 
                             <p><Link href="/courses"> Data Science </Link> </p>
 
@@ -98,8 +101,8 @@ export default function NavbarDesk() {
                             <p><Link href="/fullstack"> Full Stack </Link>
                             </p>
 
-                        </div> */}
-                    </div>
+                        </div>
+                    </div> */}
 
 
 

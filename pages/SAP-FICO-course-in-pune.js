@@ -20,12 +20,13 @@ import SAPFico from '@/component/Syllabus/sapFico/sapFico'
 import ReviewSapFico from '@/component/reviews/ReviewSapFico'
 import SAPfaq from '@/component/FAQs/SAP/SAPfaq'
 import SAPcourses from '@/component/SAPcourses'
+import Mobileform from '@/component/Mobileform'
 
 
 export default function SAPFICO() {
 
     let image = {
-        background: "linear-gradient(90deg,rgb(13 121 128), rgb(157 146 238 / 1%)), url(img/bg/22.jpeg) no-repeat center center/cover"
+        background: "linear-gradient(90deg,rgb(13 121 128), rgb(157 146 238 / 1%)), url(img/bg/sapfico.webp) no-repeat center center/cover"
     }
 
     let data = {
@@ -44,6 +45,9 @@ export default function SAPFICO() {
 
             <Layout>
                 <Certificate data={data} image={image} />
+
+                <Mobileform />
+
 
                 <div className="pageContainer">
                     <div className="text">

@@ -14,10 +14,11 @@ import Head from 'next/head'
 import { FaRegCalendar, FaUserGear } from "react-icons/fa6";
 import { FaUsers, FaProjectDiagram } from "react-icons/fa";
 import { MdMenuBook, MdLibraryBooks } from "react-icons/md";
+import Mobileform from '@/component/Mobileform'
 
 export default function fullstack() {
     let image = {
-        background: "linear-gradient(90deg, #0b4e7a, rgb(157 146 238 / 1%)), url(img/bg/9.jpg) no-repeat center center/cover"
+        background: "linear-gradient(90deg, #0b4e7a, rgb(157 146 238 / 1%)), url(img/bg/fullstack.webp) no-repeat center center/cover"
     }
 
     let data = {
@@ -40,6 +41,9 @@ export default function fullstack() {
             <Layout>
 
                 <Certificate data={data} image={image} />
+
+                <Mobileform />
+
 
                 <div className="pageContainer">
                     <div className='text'>

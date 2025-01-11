@@ -18,10 +18,11 @@ import FSpython from '@/component/Syllabus/fullstackPython/FSpython'
 import ReviewFSpython from '@/component/reviews/ReviewFSpython'
 import FSjavaque from '@/component/FAQs/FSjava/FSjavaque'
 import FSpythonque from '@/component/FAQs/FSpython/FSpythonque'
+import Mobileform from '@/component/Mobileform'
 
 export default function python() {
     let image = {
-        background: "linear-gradient(90deg, rgb(3 41 67), rgb(157 146 238 / 1%)), url(img/bg/3.jpg) no-repeat center center/cover"
+        background: "linear-gradient(90deg, rgb(26 137 137), rgb(157 146 238 / 62%)), url(img/bg/python.webp) no-repeat center center/cover"
     }
 
     let data = {
@@ -43,6 +44,9 @@ export default function python() {
             <Layout>
 
                 <Certificate data={data} image={image} />
+
+                <Mobileform />
+
 
                 <div className="pageContainer">
                     <div className='text'>

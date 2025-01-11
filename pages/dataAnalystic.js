@@ -8,10 +8,11 @@ import HomeFaq from '@/component/HomeFaq'
 import HiringPartners from '@/component/HiringPartners'
 import FeedbackForm from '@/component/FeedbackForm'
 import Testimonials from '@/component/Testimonials'
+import Mobileform from '@/component/Mobileform'
 export default function dataAnalystic() {
 
     let image = {
-        background: "linear-gradient(90deg, #38064cbf, #9d92ee4e), url(img/bg/7.jpg) no-repeat center center/cover"
+        background: "linear-gradient(90deg, #38064cbf, rgb(15 190 243 / 65%)), url(img/bg/dataanalytics.webp) no-repeat center center/cover"
     }
 
     let data = {
@@ -24,6 +25,9 @@ export default function dataAnalystic() {
             <Layout>
 
                 <Certificate data={data} image={image} />
+
+                <Mobileform />
+
 
                 <div className="pageContainer">
                     <Counter />

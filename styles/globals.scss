@@ -220,6 +220,7 @@ h4 {
         right: 37%;
         display: flex;
 
+
         a {
             color: $grey;
             text-decoration: none;
@@ -614,7 +615,7 @@ h4 {
 // =============  poster  ========================
 
 .poster {
-    background: linear-gradient(90deg, rgb(4 4 11), rgb(25 99 153 / 45%)), url(../public/img/bg/2.jpg) no-repeat center center/cover;
+    background: linear-gradient(90deg, rgb(4 4 11), rgb(25 99 153 / 45%)), url(../public/img/bg/Fullstackjava.webp) no-repeat center center/cover;
     background-size: 100%, 100%;
     height: auto;
     padding: 2rem 5% 1rem 5%;
@@ -808,6 +809,7 @@ h4 {
             position: relative;
             left: 0;
             width: 100%;
+            display: none;
 
         }
     }
@@ -821,7 +823,7 @@ h4 {
     // opacity: 1;
     height: auto;
     padding: 2rem 5% 1rem 5%;
-    margin: 2rem;
+    margin: 1.5rem 2rem 2rem 2rem;
     display: flex;
     color: $ltblue;
     border-radius: 0.5rem;
@@ -982,7 +984,7 @@ h4 {
     }
 }
 
-@media only screen and (max-width:661px) {
+@media only screen and (max-width:700px) {
     .certificate {
         display: flex;
         flex-direction: column;
@@ -1049,6 +1051,7 @@ h4 {
             left: 0%;
             width: 100%;
             margin-top: 0rem;
+            display: none;
         }
 
     }
@@ -2743,5 +2746,20 @@ h4 {
                 bottom: 0.12rem;
             }
         }
+    }
+}
+
+// ================= mobileform ===================
+.mobileform {
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .mobileform {
+        display: block;
+        background: linear-gradient(90deg, #10599a, #41c0c9);
+        padding: 2rem 5%;
+        margin: 1rem;
+        border-radius: 0.5rem;
     }
 }

@@ -135,7 +135,7 @@ export default function CompetitiveExam() {
                     <div className="box">
 
                         <div className="img">
-                            <img src="img/exam/Upsc.webp" alt="Upsc" />
+                            <img src="img/exam/UPSC.webp" alt="Upsc" />
 
                         </div>
                         <div className="txt">

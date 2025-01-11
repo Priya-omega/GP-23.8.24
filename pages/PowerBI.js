@@ -8,10 +8,11 @@ import HomeFaq from '@/component/HomeFaq'
 import HiringPartners from '@/component/HiringPartners'
 import FeedbackForm from '@/component/FeedbackForm'
 import Testimonials from '@/component/Testimonials'
+import Mobileform from '@/component/Mobileform'
 
 export default function PowerBi() {
     let image = {
-        background: "linear-gradient(90deg, rgb(6 6 76 / 53%), #9d92ee4e), url(img/bg/5.webp) no-repeat center center/cover"
+        background: "linear-gradient(90deg, rgb(6 6 76 / 53%), #9d92ee4e), url(img/bg/powerBi.webp) no-repeat center center/cover"
     }
 
     let data = {
@@ -23,6 +24,9 @@ export default function PowerBi() {
             <Layout>
 
                 <Certificate data={data} image={image} />
+
+                <Mobileform />
+
 
                 <div className="pageContainer">
                     <Counter />

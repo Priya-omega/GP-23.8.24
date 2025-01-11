@@ -16,10 +16,11 @@ import { FaRegCalendar, FaUserGear } from "react-icons/fa6";
 import { FaUsers, FaProjectDiagram } from "react-icons/fa";
 import { MdMenuBook, MdLibraryBooks } from "react-icons/md";
 import FSjavaque from '@/component/FAQs/FSjava/FSjavaque'
+import Mobileform from '@/component/Mobileform'
 
 export default function FullstackJava() {
     let image = {
-        background: "linear-gradient(90deg, #0b4e7a, rgb(157 146 238 / 1%)), url(img/bg/2.jpg) no-repeat center center/cover"
+        background: "linear-gradient(90deg, #0b4e7a, rgb(157 146 238 / 1%)), url(img/bg/datascience.webp) no-repeat center center/cover"
     }
 
     let data = {
@@ -40,6 +41,9 @@ export default function FullstackJava() {
             <Layout>
 
                 <Certificate data={data} image={image} />
+
+                <Mobileform />
+
 
                 <div className="pageContainer">
                     <div className="text">
